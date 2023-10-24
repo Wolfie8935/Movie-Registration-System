@@ -5,16 +5,7 @@ import java.util.logging.Logger;
 import javaapplication4.JavaApplication4;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author PRATAP KUMAR
- */
 public class register extends javax.swing.JFrame {
 Connection conn=null;
     /**
@@ -71,15 +62,15 @@ Connection conn=null;
             }
         });
         getContentPane().add(jTextField1);
-        jTextField1.setBounds(343, 129, 190, 34);
+        jTextField1.setBounds(330, 130, 190, 34);
 
         jTextField2.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         getContentPane().add(jTextField2);
-        jTextField2.setBounds(343, 185, 190, 30);
+        jTextField2.setBounds(330, 190, 190, 30);
 
         jTextField3.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         getContentPane().add(jTextField3);
-        jTextField3.setBounds(343, 310, 190, 30);
+        jTextField3.setBounds(330, 310, 190, 30);
 
         jButton1.setFont(new java.awt.Font("Algerian", 1, 24)); // NOI18N
         jButton1.setText("SIGN UP");
@@ -97,13 +88,13 @@ Connection conn=null;
         jLabel4.setBounds(160, 30, 300, 48);
 
         jLabel5.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        jLabel5.setText("PHONE NUMBER");
+        jLabel5.setText("PHONE ");
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(135, 250, 200, 28);
+        jLabel5.setBounds(135, 250, 140, 28);
 
         jTextField4.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         getContentPane().add(jTextField4);
-        jTextField4.setBounds(340, 240, 200, 30);
+        jTextField4.setBounds(330, 250, 200, 30);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
