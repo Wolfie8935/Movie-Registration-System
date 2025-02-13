@@ -130,7 +130,7 @@ The success of this system hinges on effective collaboration between developers,
 
 
 
-# Colaborators:
+# Collaborators:
 
 <img src="https://github.com/RishaanYadav.png" width="50" height="50" /> [Rishaan Yadav](https://github.com/RishaanYadav)
 <br>
